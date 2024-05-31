@@ -2,7 +2,8 @@ import { SafeAreaView } from "react-native";
 import React, { useEffect } from "react";
 import { RocketScreen } from "@contexts/flyRocket/rocketScreen";
 import { GlobalStyles } from "./src/utils/globalStyles";
-import { useFonts } from "@hooks/useFonts";
+import { useFonts } from "@/src/helpers/useFonts";
+import { PlaneAnimation } from "@contexts/planeLoader/plane";
 
 export default function App() {
   useEffect(() => {
@@ -10,7 +11,8 @@ export default function App() {
   }, []);
   return (
     <SafeAreaView style={GlobalStyles.container}>
-      <RocketScreen />
+      {/* <RocketScreen /> */}
+      <PlaneAnimation />
     </SafeAreaView>
   );
 }
