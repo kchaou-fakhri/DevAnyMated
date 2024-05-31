@@ -2,7 +2,7 @@ import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 import { GlobalStyles } from "@/src/utils/globalStyles";
 import { Circle } from "@/src/common";
-import { getRandomInt } from "@/src/hooks/useRandom";
+import { getRandomInt } from "@/src/helpers/useRandom";
 import { COLORS } from "@/src/utils/colors";
 
 export const Smoke = () => {
