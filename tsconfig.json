@@ -9,7 +9,8 @@
       "@components/*": ["./src/components/*"],
       "@helpers/*": ["./src/helpers/*"],
       "@store/*": ["./src/store/*"],
-      "@utils/*": ["./src/utils/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@model/*": ["./src/model/*"]
     }
   },
   "extends": "expo/tsconfig.base"
