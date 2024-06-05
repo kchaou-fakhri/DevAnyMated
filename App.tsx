@@ -4,6 +4,7 @@ import { RocketScreen } from "@contexts/flyRocket/rocketScreen";
 import { GlobalStyles } from "./src/utils/globalStyles";
 import { useFonts } from "@/src/helpers/useFonts";
 import { PlaneAnimation } from "@contexts/planeLoader/plane";
+import { RNLogo } from "./src/contexts/RNLogo/ui/rnLogo";
 
 export default function App() {
   useEffect(() => {
@@ -12,7 +13,8 @@ export default function App() {
   return (
     <SafeAreaView style={GlobalStyles.container}>
       {/* <RocketScreen /> */}
-      <PlaneAnimation />
+      {/* <PlaneAnimation /> */}
+      <RNLogo />
     </SafeAreaView>
   );
 }
